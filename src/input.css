@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+  /* 先套用 Noto Sans TC 這個 思源黑體 */
+  font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+.login_box{
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 435px;
+    height: 480px;
+
+    background: #FFFFFF;
+    border: 5px solid #7185A8;
+    border-radius: 20px;
+    
+    text-align: center;
+
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.register{
+    position: relative;
+    width: 188px;
+    height: 52px;
+
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #1D3D76;
+
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 7%;
+
+    z-index: 5;
+}
+
+.register_line{
+    position: relative;
+    width: 106px;
+    height: 16px;
+
+    background: #F4D17D;
+
+    margin-top: -12%;
+    margin-bottom: 12%;
+    margin-left: 7%;
+    z-index: 4;
+}
+
+.input{
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 80%;
+    height: 10%;
+
+    background: #FFFFFF;
+    border: 2px solid #7185A8;
+    border-radius: 10px;
+
+    color: #c5c5c5;
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-size: 20px;
+
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+
+.sign_up{
+    /* position: absolute; */
+    width: 181px;
+    height: 46px;
+
+    background: #F4D17D;
+    border-radius: 10px;
+
+    color: #1D3D76;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.login{
+    font-family: 'Noto Serif TC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration-line: underline;
+
+    color: #1D3D76;
+}
